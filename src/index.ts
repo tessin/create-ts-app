@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import fs = require("fs");
 
 import { resolve, join } from "path";
