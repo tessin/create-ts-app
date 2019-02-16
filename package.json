@@ -1,6 +1,6 @@
 {
   "name": "@tessin/create-ts-app",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "bin": "./lib/index.js",
   "license": "MIT",
   "devDependencies": {
