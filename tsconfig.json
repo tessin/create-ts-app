@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "commonjs",
+    "sourceMap": false,
+    "jsx": "react",
+    "strict": true,
+    "outDir": "lib",
+    "rootDir": "src",
+
+    // Keep the code clean and catch the occasional typo.
+    "noUnusedLocals": true,
+
+    "noFallthroughCasesInSwitch": true,
+
+    "noImplicitReturns": true,
+
+    // Generate declaration files.
+    "declaration": true,
+
+    // You should never use "CRLF" not even on Windows
+    // see https://github.com/Microsoft/TypeScript/issues/29928
+    "newLine": "LF"
+  },
+  "include": ["src/**/*"]
+}

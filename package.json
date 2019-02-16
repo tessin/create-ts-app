@@ -1,0 +1,19 @@
+{
+  "name": "@tessin/create-ts-app",
+  "version": "1.0.0",
+  "main": "./lib/index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^11.9.4",
+    "rimraf": "^2.6.3",
+    "typescript": "^3.3.3"
+  },
+  "scripts": {
+    "build": "tsc -d",
+    "prepublishOnly": "yarn build && rimraf test && node ./lib/index.js test && cd test && yarn tsc -d"
+  },
+  "files": [
+    "lib/",
+    "tsconfig.json"
+  ]
+}
